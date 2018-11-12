@@ -26,7 +26,7 @@ static NSString *const RCTShowDevMenuNotification = @"RCTShowDevMenuNotification
 
 + (BOOL)requiresMainQueueSetup
 {
-    return NO;
+    return YES;
 }
 
 RCT_EXPORT_MODULE();
