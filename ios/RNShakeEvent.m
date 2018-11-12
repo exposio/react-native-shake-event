@@ -24,6 +24,11 @@ static NSString *const RCTShowDevMenuNotification = @"RCTShowDevMenuNotification
 
 @synthesize bridge = _bridge;
 
++ (BOOL)requiresMainQueueSetup
+{
+    return NO;
+}
+
 RCT_EXPORT_MODULE();
 
 + (void)initialize
